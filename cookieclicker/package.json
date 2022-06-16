@@ -1,0 +1,32 @@
+{
+    "version": "1.0.0",
+    "name": "cookieclicker",
+    "main": "index.html",
+    "icon": "icon.ico",
+    "window": {
+        "icon": "icon.ico",
+        "frame": true,
+        "toolbar": false
+    },
+    "platformOverrides": {
+        "win": {
+            "window": {
+                "icon": "icon.ico",
+                "toolbar": true
+            }
+        },
+        "win32": {
+            "window": {
+                "icon": "icon.ico",
+                "frame": true,
+                "toolbar": false
+            }
+        },
+        "win64": {
+            "window": {
+                "icon": "icon.ico",
+                "frame": true
+            }
+        }
+    }
+}
